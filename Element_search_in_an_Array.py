@@ -1,4 +1,7 @@
 n=int(input())
-nums=list(map(int,input().split()))
-se=int(input())
-print(se in nums)
+num=list(map(int,input().split()))
+i=int(input())
+if i in num:
+    print("True")
+else:
+    print("False")
