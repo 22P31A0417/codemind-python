@@ -1,6 +1,7 @@
-n=int(input())
-nums=list(map(int,input().split()))
-for i in range(n-1,-1,-1):
-    if nums[i]%2!=0:
-        print(i)
-        break
+a=int(input())
+b=list(map(int,input().split()))
+s=0
+for i in range(0,len(b)):
+    if b[i]%2!=0:
+        s=i
+print(s)
